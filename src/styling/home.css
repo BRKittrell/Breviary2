@@ -1,0 +1,39 @@
+.PERNPitLink{
+    color: aliceblue;
+}
+
+.card{
+    display: block;
+    border-radius: 10px;
+    width:max-content;
+    /* margin: 1rem */
+    margin-top: .5rem;
+}
+
+
+.cardPhoto{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12%;
+    border: 3px solid aliceblue;
+}
+
+.cardName{
+    color: aliceblue;
+    margin: 5px
+}
+
+.homeDiv{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+z-index: -1
+}
+
+.occupation{
+    font-family: 'Aboreto', cursive;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 1rem
+}

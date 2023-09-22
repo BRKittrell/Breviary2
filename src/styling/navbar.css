@@ -1,0 +1,29 @@
+.heading{
+    font-family: 'Aboreto', cursive;
+    font-size: 44px;
+    margin: auto;
+    color: #BF0603;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.navLink{
+    padding-left: .25rem;
+    padding-right: .25rem;
+    margin: 1rem;
+    position: relative;
+}
+
+.navbardiv{
+    border-radius: 10px;
+    border-bottom: solid aliceblue;
+    border-top: solid aliceblue;
+    padding: .5rem;
+}
+
+
+
+
+
+
