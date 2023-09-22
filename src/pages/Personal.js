@@ -19,7 +19,7 @@ const Personal = () =>{
 
         <div className="personalImageDiv">
           <img class="personalImages" src={fishing}/>
-          <p>My family's fishing trip in Ketchikan, Alaska.</p>
+          <p>Family fishing trip in Ketchikan, Alaska.</p>
         </div>
        
         <div className="personalImageDiv">

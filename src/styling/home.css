@@ -6,8 +6,7 @@
     display: block;
     border-radius: 10px;
     width:max-content;
-    /* margin: 1rem */
-    margin-top: .5rem;
+     margin-top: .5rem;
 }
 
 
@@ -16,12 +15,13 @@
     height: 180px;
     object-fit: cover;
     border-radius: 12%;
-    border: 3px solid aliceblue;
+    border: .3rem groove gold;
 }
 
 .cardName{
-    color: aliceblue;
-    margin: 5px
+    color: gold;
+    margin: 5px;
+    font-family: 'Over the Rainbow', cursive;
 }
 
 .homeDiv{
@@ -32,7 +32,7 @@ z-index: -1
 }
 
 .occupation{
-    font-family: 'Aboreto', cursive;
+    font-family: 'Over the Rainbow', cursive;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin: 1rem

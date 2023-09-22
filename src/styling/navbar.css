@@ -2,7 +2,7 @@
     font-family: 'Aboreto', cursive;
     font-size: 44px;
     margin: auto;
-    color: #BF0603;
+    color: gold;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -17,8 +17,8 @@
 
 .navbardiv{
     border-radius: 10px;
-    border-bottom: solid aliceblue;
-    border-top: solid aliceblue;
+    border-bottom: groove .35rem rgb(212, 7, 7);
+    border-top: groove .35rem rgb(212, 7, 7);
     padding: .5rem;
 }
 
