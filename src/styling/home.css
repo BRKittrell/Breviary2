@@ -11,8 +11,8 @@
 
 
 .cardPhoto{
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 12%;
     border: .3rem groove gold;
@@ -26,9 +26,9 @@
 
 .homeDiv{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 justify-content: center;
-z-index: -1
+/* z-index: -1 */
 }
 
 .occupation{

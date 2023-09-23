@@ -8,7 +8,7 @@ import Roo from "../images/Roo.jpeg"
 
 
 
-const Personal = () =>{
+const SeeMore = () =>{
     return (
       <>
         <div className="personalDiv">
@@ -47,4 +47,4 @@ const Personal = () =>{
     )
 }
 
-export default Personal;
+export default SeeMore;
