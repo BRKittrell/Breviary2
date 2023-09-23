@@ -19,7 +19,7 @@ const About = () => {
         <p className="aboutParagraph">
         I met my wife in Ireland in 2003 while on a deployment. We were married at the Marblehead, OH lighthouse in 2004.
         In 2006, my daughter was born at the Balboa Naval Hospital in San Diego, CA. 
-        We love to golfing (My daughter plays on Junior PGA tour!), watching college football, and fishing. <Link to="personal" >See more.</Link>
+        We love golfing (My daughter plays on Junior PGA tour!), watching college football, and fishing. <Link to="personal" >See more.</Link>
         </p>
           </div>
   );
