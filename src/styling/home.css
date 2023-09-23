@@ -11,8 +11,8 @@
 
 
 .cardPhoto{
-    width: 250px;
-    height: 250px;
+    width: 425px;
+    height: 425px;
     object-fit: cover;
     border-radius: 12%;
     border: .3rem groove gold;
