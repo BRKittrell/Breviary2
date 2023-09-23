@@ -12,7 +12,7 @@ return(
     <h1>Software Engineernig Curriculum</h1>
     <iframe className="professional" src="https://drive.google.com/file/d/1Rxgt8m8NoLyitq6mPk9p9x2_bGQsoV9C/preview" width="640" height="480" allow="autoplay"></iframe>
     <h1>Penn State Degree Progress</h1>
-    <iframe src="https://drive.google.com/file/d/1xco24BB_6JHS3QYPkijOeTZhnRDaDLb0/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe className="professional" src="https://drive.google.com/file/d/1xco24BB_6JHS3QYPkijOeTZhnRDaDLb0/preview" width="640" height="480" allow="autoplay"></iframe>
     <h1>Joint Services Transcript</h1>
     <iframe className="professional" src="https://drive.google.com/file/d/1YlLnoWFjbymqhzgHf_Xf_V6zW2ZqlpQ5/preview" width="640" height="480" allow="autoplay"></iframe>
     </>
