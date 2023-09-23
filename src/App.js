@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import DegreeAndCertificate from "./pages/DegreeAndCertificate";
 import JustForLaughs from "./pages/Laugh";
 import PageNotFound from "./pages/PageNotFound";
-import Play from "./pages/Personal";
+import Play from "./pages/SeeMore";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Videos from "./pages/Videos";
@@ -23,7 +23,7 @@ import "./styling/resume.css"
 import "./styling/construction.css"
 import "./styling/laugh.css"
 import "./styling/heist.css"
-import "./styling/personal.css"
+import "./styling/seeMore.css"
 
 function App() {
   return (
