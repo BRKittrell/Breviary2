@@ -10,10 +10,10 @@ const About = () => {
           <h1>Professional Life</h1>
       <p className="aboutParagraph">
         I joined the U.S. Coast Guard in 1999 and served in Alaska, Texas, California, Virginia, Michigan, and Ohio as a  <a target="_blank" href="https://www.cool.osd.mil/uscg/moc/index.html?moc=gm&tab=overview">Gunner's Mate</a>.
-        I advanced to Senior Chief Petty Officer (E-8) in 2015 and retired from active duty in 2022 after 23 years after service as a <a target="_blank" href="https://www.cool.osd.mil/uscg/moc/index.html?moc=cg_csel&tab=overview">Command Senior Enlisted Leader</a>.       
+        I advanced to Senior Chief Petty Officer (E-8) and retired from active duty in 2022 after 23 years after service as a <a target="_blank" href="https://www.cool.osd.mil/uscg/moc/index.html?moc=cg_csel&tab=overview">Command Senior Enlisted Leader</a>.       
         While in the Coast Guard, I earned many certifications and an Associate of Arts in Business Management.
-        When I retired, I completed a full-stack software engineering bootcamp and returned to college (Penn State) in pursuit of a Bachelor of Science in Marketing.
-        I aspire to be a Product Manager. <Link to="personal">See more.</Link>
+        When I retired, I completed a full-stack software engineering bootcamp and returned to college at the Pennsylvania State University in pursuit of a Bachelor of Science in Marketing.
+        I aspire to be a Product Manager.
         </p>     
         <h1>Personal Life</h1>
         <p className="aboutParagraph">
