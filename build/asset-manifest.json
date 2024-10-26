@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f75f8380.css",
-    "main.js": "/static/js/main.870cdb54.js",
+    "main.css": "/static/css/main.ea2819ba.css",
+    "main.js": "/static/js/main.681be625.js",
     "static/js/787.259c9b70.chunk.js": "/static/js/787.259c9b70.chunk.js",
     "static/media/PSUMSUGame.jpeg": "/static/media/PSUMSUGame.5cf2d32bca8dc7925344.jpeg",
     "static/media/RickieFowler.jpeg": "/static/media/RickieFowler.e00c264209a582d95f83.jpeg",
@@ -12,12 +12,12 @@
     "static/media/CSEL.jpeg": "/static/media/CSEL.a8f89382f463bb6f6db9.jpeg",
     "static/media/OIF.jpeg": "/static/media/OIF.abe67925a0c3628e803f.jpeg",
     "index.html": "/index.html",
-    "main.f75f8380.css.map": "/static/css/main.f75f8380.css.map",
-    "main.870cdb54.js.map": "/static/js/main.870cdb54.js.map",
+    "main.ea2819ba.css.map": "/static/css/main.ea2819ba.css.map",
+    "main.681be625.js.map": "/static/js/main.681be625.js.map",
     "787.259c9b70.chunk.js.map": "/static/js/787.259c9b70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f75f8380.css",
-    "static/js/main.870cdb54.js"
+    "static/css/main.ea2819ba.css",
+    "static/js/main.681be625.js"
   ]
 }

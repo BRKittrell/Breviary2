@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 //Imported Comps
 import VisitorWall from "../components/VisitorWall";
+import Heist from "../components/Heist";
 
 const Visitors = () => {
 
@@ -82,6 +83,7 @@ const Visitors = () => {
       </div>
       <div>
         <VisitorWall />
+        {/* <Heist /> */}
       </div>
     </>
   );

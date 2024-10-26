@@ -6,9 +6,9 @@ import DegreeAndCertificate from "./pages/DegreeAndCertificate";
 import JustForLaughs from "./pages/Laugh";
 import PageNotFound from "./pages/PageNotFound";
 import Play from "./pages/SeeMore";
-import Projects from "./pages/Projects";
+import Blogs from "./pages/Blogs";
 import Resume from "./pages/Resume";
-import Videos from "./pages/Videos";
+import Skills from "./pages/Skills";
 import Visitors from "./pages/Visitors";
 //Components
 import Layout from "./components/Layout";
@@ -17,7 +17,7 @@ import "./styling/about.css"
 import "./styling/home.css"
 import "./styling/layout.css"
 import "./styling/navbar.css"
-import "./styling/videos.css"
+import "./styling/skills.css"
 import "./styling/visitors.css"
 import "./styling/resume.css"
 import "./styling/construction.css"
@@ -33,11 +33,11 @@ function App() {
           <Route path="/degreeAndcertificate" element={<DegreeAndCertificate />} />
           <Route path="/" element={<Home />} />
           {/* <Route path="/laugh" element={<JustForLaughs/>} /> */}
-          <Route path="/personal" element={<Play />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
+          {/* <Route path="/personal" element={<Play />} /> */}
+          <Route path="/blogs" element={<Blogs/>} />
           <Route path="/resume" element={<Resume/>} />
-          {/* <Route path="/videos" element={<Videos />} /> */}
-          {/* <Route path="/visitors" element={<Visitors />} /> */}
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/visitors" element={<Visitors />} />
           <Route path="*" element={<PageNotFound />} />          
           </Route>
         </Routes>
