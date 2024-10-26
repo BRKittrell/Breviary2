@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="navbardiv">
         <a href="mailto:brandon.kittrell@outlook.com"><MdOutlineMailOutline className="icon">...</MdOutlineMailOutline></a>
         <Link to="/" className="navLink">
-          Home
+          Bio
         </Link>
         <Link to="resume" className="navLink">
           Resume

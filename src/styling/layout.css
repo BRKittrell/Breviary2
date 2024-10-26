@@ -56,7 +56,7 @@ h1{
     color: gold;
     text-align: center;
     font-family: 'Aboreto', cursive;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 html{
@@ -68,7 +68,8 @@ html{
 
 .icon{
     color: aliceblue;
-    
+    height: 3em;
+    width: 3em;
 }
 .icon:hover{
     color: #BF0603;
@@ -97,7 +98,6 @@ label{
 
 .navLink{
     font-family: 'Outfit', sans-serif;
-    font-size: 30px;
     color: aliceblue;
 }
 p{

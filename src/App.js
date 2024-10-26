@@ -24,6 +24,7 @@ import "./styling/construction.css"
 import "./styling/laugh.css"
 import "./styling/heist.css"
 import "./styling/seeMore.css"
+import "./styling/blogs.css"
 
 function App() {
   return (

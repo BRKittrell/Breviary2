@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <div className="aboutDiv">
-          <h1>Professional and Education Summary</h1>
+          <h1>Sea Patrols and Software Goals: Charting a New Course in Tech</h1>
       <p className="aboutParagraph">
         I joined the U.S. Coast Guard in 1999 and served as a  <a target="_blank" href="https://www.cool.osd.mil/uscg/moc/index.html?moc=gm&tab=overview">Gunner's Mate</a>.
         I advanced to Senior Chief Petty Officer (E-8) and retired from active duty in 2022 as a <a target="_blank" href="https://www.cool.osd.mil/uscg/moc/index.html?moc=cg_csel&tab=overview">Command Senior Enlisted Leader</a>.       

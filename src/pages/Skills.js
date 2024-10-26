@@ -8,12 +8,12 @@ const Skills = () =>{
             <div className="skillsdiv">
                 <h1>Hard Skills</h1>
                 <span class="material-symbols-outlined">check</span>Project Management<br></br>
-                <span class="material-symbols-outlined">check</span>Product Leadership<br></br>
+                <span class="material-symbols-outlined">check</span>Sourcing and Procuring<br></br>
                 <span class="material-symbols-outlined">check</span>Software Engineering<br></br>
-                <span class="material-symbols-outlined">check</span>Market Analysis<br></br>
-                <span class="material-symbols-outlined">check</span>UX Design<br></br>
+                <span class="material-symbols-outlined">check</span>Forecasting<br></br>
+                <span class="material-symbols-outlined">check</span>Demand Planning<br></br>
                 <span class="material-symbols-outlined">check</span>Inventory Management<br></br>
-                <span class="material-symbols-outlined">check</span>Supply Chain Management<br></br>
+                <span class="material-symbols-outlined">check</span>Logistics<br></br>
                 <span class="material-symbols-outlined">check</span>Agile Methodoligies<br></br>
             </div>
             <div className="skillsdiv">
@@ -21,7 +21,7 @@ const Skills = () =>{
                 <span class="material-symbols-outlined">check</span>Team Leadership<br></br>
                 <span class="material-symbols-outlined">check</span>Verbal Communication<br></br>
                 <span class="material-symbols-outlined">check</span>Collaboration<br></br>
-                <span class="material-symbols-outlined">check</span>Problem Solvings<br></br>
+                <span class="material-symbols-outlined">check</span>Problem Solving<br></br>
                 <span class="material-symbols-outlined">check</span>Detail Oriented<br></br>
                 <span class="material-symbols-outlined">check</span>Strategic Planning<br></br>
                 <span class="material-symbols-outlined">check</span>Mentorship<br></br>

@@ -1,0 +1,26 @@
+.blogpic{
+    width: 425px;
+    height: 425px;
+    object-fit: cover;
+    border-radius: 12%;
+    margin-top: 2rem;
+}
+
+summary{
+    color: gold;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    font-size: 22px;
+    margin: 14.74px;
+}
+
+.blogparagraph{
+    text-align: left; /* Keeps text aligned to the left */
+    width: 75rem;     /* Sets width */
+    margin: 0 auto;
+}
+
+article{
+    width: 75rem;     /* Sets width */
+    margin: 0 auto;
+}

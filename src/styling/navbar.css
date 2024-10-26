@@ -1,27 +1,30 @@
-.heading{
+
+.heading {
     font-family: 'Aboreto', cursive;
-    font-size: 44px;
+    font-size: 3vw; /* Responsive font size based on viewport width */
     margin: auto;
     color: gold;
     padding-top: 1rem;
     padding-bottom: 1rem;
     position: relative;
-
 }
 
-.navLink{
-    padding-left: .25rem;
-    padding-right: .25rem;
+.navLink {
+    padding-left: 0.5rem; /* Adjusted for better spacing */
+    padding-right: 0.5rem; /* Adjusted for better spacing */
     margin: 1rem;
+    font-size: 2.5vw; /* Responsive font size for nav links */
     position: relative;
 }
 
-.navbardiv{
+.navbardiv {
     border-radius: 10px;
-    border-bottom: groove .35rem rgb(212, 7, 7);
-    border-top: groove .35rem rgb(212, 7, 7);
-    padding: .5rem;
-    
+    border-bottom: groove 0.35rem rgb(212, 7, 7);
+    border-top: groove 0.35rem rgb(212, 7, 7);
+    padding: 0.5rem;
+    display: flex; /* Use flexbox for alignment if needed */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
 }
 
 
