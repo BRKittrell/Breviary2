@@ -11,7 +11,7 @@ summary {
     text-align: center;
     font-family: 'Aboreto', cursive;
     font-size: 22px;
-    margin: 14.74px;
+    cursor: pointer;
 }
 
 .blogparagraph {
@@ -35,4 +35,11 @@ article {
     height: 425px;   /* Match the height of .blogpic */
     border-radius: 12%;
     margin-top: 2rem;
+}
+
+details {
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1rem;
 }
