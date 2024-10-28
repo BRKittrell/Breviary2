@@ -16,9 +16,7 @@
     width: 425px;
     height: 425px;
     object-fit: cover;
-    border-radius: 12%;
-    border: .3rem groove gold;
-}
+    border-radius: 50%;}
 
 .cardName{
     color: gold;
