@@ -1,4 +1,4 @@
-.blogpic{
+.blogpic {
     width: 425px;
     height: 425px;
     object-fit: cover;
@@ -6,7 +6,7 @@
     margin-top: 2rem;
 }
 
-summary{
+summary {
     color: gold;
     text-align: center;
     font-family: 'Aboreto', cursive;
@@ -14,13 +14,25 @@ summary{
     margin: 14.74px;
 }
 
-.blogparagraph{
+.blogparagraph {
     text-align: left; /* Keeps text aligned to the left */
     width: 75rem;     /* Sets width */
     margin: 0 auto;
 }
 
-article{
+article {
     width: 75rem;     /* Sets width */
     margin: 0 auto;
+}
+
+.blogpic_red_cost {
+    width: fit-content;
+    border-radius: 12%;
+    margin-top: 2rem;
+}
+
+.blogpic_PMM {
+    height: 425px;   /* Match the height of .blogpic */
+    border-radius: 12%;
+    margin-top: 2rem;
 }

@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3777ef5.css",
-    "main.js": "/static/js/main.48816c14.js",
+    "main.css": "/static/css/main.0799dca9.css",
+    "main.js": "/static/js/main.9e4949ca.js",
     "static/js/787.259c9b70.chunk.js": "/static/js/787.259c9b70.chunk.js",
     "static/media/PSUMSUGame.jpeg": "/static/media/PSUMSUGame.5cf2d32bca8dc7925344.jpeg",
+    "static/media/PMM.png": "/static/media/PMM.2f8fc65d5e7e1c11326d.png",
     "static/media/RickieFowler.jpeg": "/static/media/RickieFowler.e00c264209a582d95f83.jpeg",
     "static/media/Roo.jpeg": "/static/media/Roo.9121cb45b6afa2ca3fa8.jpeg",
     "static/media/AlaskaFish.jpeg": "/static/media/AlaskaFish.7475931cf2f17d52a8b9.jpeg",
     "static/media/Piggybank.jpeg": "/static/media/Piggybank.5d350a1da4c42e3acfed.jpeg",
-    "static/media/SCMERP.jpeg": "/static/media/SCMERP.8836e4db983725af5580.jpeg",
-    "static/media/PMM.jpeg": "/static/media/PMM.0680ef5b28fc1672a942.jpeg",
     "static/media/LI_Pic.jpeg": "/static/media/LI_Pic.61e59ded85ad70f4e8f2.jpeg",
     "static/media/corn.jpeg": "/static/media/corn.244024a7acbfe3ea4ab2.jpeg",
+    "static/media/ERP_SCM.jpg": "/static/media/ERP_SCM.fdc875fb5f40b4c9ee87.jpg",
+    "static/media/Reducing_Cost.jpeg": "/static/media/Reducing_Cost.106bb3620c76f40c6a09.jpeg",
     "static/media/CSEL.jpeg": "/static/media/CSEL.a8f89382f463bb6f6db9.jpeg",
     "static/media/OIF.jpeg": "/static/media/OIF.abe67925a0c3628e803f.jpeg",
     "index.html": "/index.html",
-    "main.e3777ef5.css.map": "/static/css/main.e3777ef5.css.map",
-    "main.48816c14.js.map": "/static/js/main.48816c14.js.map",
+    "main.0799dca9.css.map": "/static/css/main.0799dca9.css.map",
+    "main.9e4949ca.js.map": "/static/js/main.9e4949ca.js.map",
     "787.259c9b70.chunk.js.map": "/static/js/787.259c9b70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3777ef5.css",
-    "static/js/main.48816c14.js"
+    "static/css/main.0799dca9.css",
+    "static/js/main.9e4949ca.js"
   ]
 }

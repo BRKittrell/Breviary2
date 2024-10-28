@@ -1,7 +1,8 @@
 import React from "react";
 import ERP_SCM from "../images/ERP_SCM.jpg"
 import Piggybank from "../images/Piggybank.jpeg"
-import PMM from "../images/PMM.jpeg"
+import PMM from "../images/PMM.png"
+import Reducing_Cost from "../images/Reducing_Cost.jpeg"
 
 const Blogs = () => {
   return (
@@ -23,7 +24,7 @@ const Blogs = () => {
 
       <details>
         <summary>ERP Piggybank Power</summary>
-          <img className="blogpic" src={Piggybank}/>
+          <img className="blogpic_red_cost" src={Reducing_Cost}/>
           <p className="blogparagraph">ERP systems are powerful cost-cutting tools. They help companies run more effectively by simplifying workflows, reducing duplication, and better-allocating resources.</p>
           <article>
           <h1>Streamlining Administrative Processes</h1>
@@ -38,7 +39,7 @@ const Blogs = () => {
 
       <details>
         <summary>The Secret Sauce: Product Marketing Managers</summary>
-          <img className="blogpic" src={PMM}/>
+          <img className="blogpic_PMM" src={PMM}/>
           <p className="blogparagraph">The role of the PMM is essential for navigating today’s complex software landscape. By aligning product development with market needs, PMMs drive growth and ensure successful product launches.</p>
           <article>
           <h1>Market Insights</h1>
