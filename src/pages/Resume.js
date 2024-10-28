@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div className="resumeContainer">
       <a
-        href="https://docs.google.com/document/d/1tB1DgjYfsrG68-rK3yaLRgoZXff3BsC0/export?format=pdf"
+        href="https://docs.google.com/document/d/1BnmXqic7F5rIDcIE2OaSK1Zt4wb38s8C/export?format=pdf"
         download="Resume.pdf" // Adjust the filename as needed
       >
         <button className="downloadbutton" type="button">Download Resume</button>
