@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const GifMessage = () => (
   <div style={{ paddingTop: "56.250%", position: "relative" }}>
@@ -40,7 +40,11 @@ const Heist = () => {
   const [correctIndices, setCorrectIndices] = useState(new Set());
   const [inputColors, setInputColors] = useState(["", "", "", ""]);
 
-  useEffect(() => {
+  const inputRefs = useRef([]);
+  const formRef = useRef(null);
+  const [isFormFocused, setIsFormFocused] = useState(true);
+
+  const generateCombination = () => {
     const newCombination = [
       Math.floor(Math.random() * 10),
       Math.floor(Math.random() * 10),
@@ -49,6 +53,28 @@ const Heist = () => {
     ];
     setCombination(newCombination);
     console.log("Combination:", newCombination);
+  };
+
+  useEffect(() => {
+    generateCombination();
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (formRef.current && !formRef.current.contains(event.target)) {
+        setIsFormFocused(false);
+      } else {
+        setIsFormFocused(true);
+      }
+    };
+
+    // Add event listener for clicks
+    document.addEventListener("mousedown", handleClickOutside);
+    
+    return () => {
+      // Cleanup the event listener
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   const handleInputChange = (index, value) => {
@@ -56,6 +82,11 @@ const Heist = () => {
       const newGuess = [...userGuess];
       newGuess[index] = value;
       setUserGuess(newGuess);
+
+      // If input is filled, focus the next input
+      if (value && index < inputRefs.current.length - 1) {
+        inputRefs.current[index + 1].focus();
+      }
     }
   };
 
@@ -101,12 +132,12 @@ const Heist = () => {
   };
 
   const resetGame = () => {
-    setCombination([]);
     setUserGuess(["", "", "", ""]);
     setNumberOfGuesses(0);
     setMessage(null);
     setCorrectIndices(new Set());
     setInputColors(["", "", "", ""]);
+    generateCombination(); // Regenerate combination
   };
 
   return (
@@ -115,19 +146,20 @@ const Heist = () => {
       <p>Only four numbers stand between you and the payoff!</p>
       <p>If you can guess the combination in <em>10 guesses</em>, you win! If you lose, you are busted!</p>
       <div className="heistDiv">
-        {/* Render the message (GIFs and guesses counter) above the form */}
         {message && <div>{message}</div>}
         <div className="keypad">
-          <form className="guessDisplay" onSubmit={guessForm}>
+          <form ref={formRef} className="guessDisplay" onSubmit={guessForm}>
             {userGuess.map((guess, index) => (
               <input
                 key={index}
+                ref={el => inputRefs.current[index] = el}
                 className="comboGuess"
                 maxLength='1'
                 value={guess}
                 onChange={(e) => handleInputChange(index, e.target.value)}
                 disabled={correctIndices.has(index)}
                 style={{ backgroundColor: inputColors[index] }}
+                autoFocus={isFormFocused} // Keep focus if the form is focused
               />
             ))}
             <button type="submit" className="keypadButton">Enter</button>
