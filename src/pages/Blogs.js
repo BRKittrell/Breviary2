@@ -1,5 +1,5 @@
 import React from "react";
-import SCMERP from "../images/SCMERP.jpeg"
+import ERP_SCM from "../images/ERP_SCM.jpg"
 import Piggybank from "../images/Piggybank.jpeg"
 import PMM from "../images/PMM.jpeg"
 
@@ -8,7 +8,7 @@ const Blogs = () => {
     <div>
       <details>
         <summary>Revolutionizing Supply Chains with ERP Integration</summary>
-          <img className="blogpic" src={SCMERP}/>
+          <img className="blogpic" src={ERP_SCM}/>
           <p className="blogparagraph">Increasing Warehouse Management Systems (WMS) isn’t just about investing in new technologies; it’s about developing an integrated technology, training, and process strategy. AI and ERP are becoming increasingly integrated in the supply chain management space and can provide a competitive advantage. AI can adapt the system to the user and create a personalized user experience.</p>
           <article>
           <h1>Enhanced Visibility and Efficiency</h1>
