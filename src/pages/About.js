@@ -14,7 +14,7 @@ const About = () => {
         While in the Coast Guard, I earned many certifications and an <a target="_blank" href="https://www.uagrantham.edu/online-degrees/business-administration-management-associate-arts/">Associate of Arts in Business Management</a> from the University of Arkansas Grantham.
         When I retired, I completed a full-stack software engineering program with <a target="_blank" href="https://www.galvanize.com/military/">Galvanize</a> and was hired as a software engineer immersive resident after graduating - a temporary opportunity that only the top three students get to help teach other cohorts.
         To be more efficient and effecitive at working with cross-functional teams, I became a <a target="_blank" href="https://www.scrum.org/assessments/professional-scrum-master-i-certification">Certified Professional Scrum Master</a>. Aspiring to do more with my skills, I returned to college at Penn State where I am purusing a <a target="_blank" href="https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-business-bachelor-of-science-degree">Bachelor's of Science in Business</a>, specializing in Managment and Marketing. I will also be earning a <a target="_blank" href="https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-enterprise-resource-planning-with-sap-undergraduate-certificate">Enterprise Resource Planning with SAP (SCM)</a> certificate.
-        When I learned to appreciate the power of data and automation, my became being a SaaS product manager.
+        When I learned to appreciate the power of data and automation, my goal turned to becoming an ERP product manager.
         </p>     
         <h1>Personal Life</h1>
         <p className="aboutParagraph">

@@ -59,6 +59,13 @@ h1{
     font-size: 22px;
 }
 
+h2{
+    outline-color: aliceblue;
+    font-family: 'Aboreto', cursive;
+    font-size: 22px; 
+    font-weight: bold;
+}
+
 html{
     background-color:
      /* #001B2E */
