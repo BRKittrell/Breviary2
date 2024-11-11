@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd757b23.css",
-    "main.js": "/static/js/main.e0578207.js",
+    "main.js": "/static/js/main.88fc458b.js",
     "static/js/787.259c9b70.chunk.js": "/static/js/787.259c9b70.chunk.js",
     "static/media/PSUMSUGame.jpeg": "/static/media/PSUMSUGame.5cf2d32bca8dc7925344.jpeg",
     "static/media/PMM.png": "/static/media/PMM.2f8fc65d5e7e1c11326d.png",
@@ -17,11 +17,11 @@
     "static/media/OIF.jpeg": "/static/media/OIF.abe67925a0c3628e803f.jpeg",
     "index.html": "/index.html",
     "main.cd757b23.css.map": "/static/css/main.cd757b23.css.map",
-    "main.e0578207.js.map": "/static/js/main.e0578207.js.map",
+    "main.88fc458b.js.map": "/static/js/main.88fc458b.js.map",
     "787.259c9b70.chunk.js.map": "/static/js/787.259c9b70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd757b23.css",
-    "static/js/main.e0578207.js"
+    "static/js/main.88fc458b.js"
   ]
 }
