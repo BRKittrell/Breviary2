@@ -1,5 +1,6 @@
 import React from "react";
 import profilePic from "../images/LI_Pic.jpeg"
+import hello from "../images/hello.png"
 
 const Card = () => {
   return (

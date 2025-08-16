@@ -2,7 +2,8 @@
 
 .aboutDiv{
     text-align: center;
-    margin-left: 5rem;
+    width: 100%;
+    padding-top: 2rem;
 }
 .aboutParagraph{
     color: aliceblue;
@@ -10,9 +11,17 @@
     font-family: 'Nunito', sans-serif;
     text-align: justify;
     margin: auto;
-    width: 50rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
+#nauticalChart{
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 12%;
+    margin-top: 2rem;
+}
 .swiper {
     width: 600px;
     height: 600px;

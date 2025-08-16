@@ -21,7 +21,7 @@ summary {
 }
 
 article {
-    width: 75rem;     /* Sets width */
+    width: auto;     /* Sets width */
     margin: 0 auto;
 }
 

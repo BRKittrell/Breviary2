@@ -13,8 +13,8 @@
 }
 
 .cardPhoto{
-    width: 425px;
-    height: 425px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;}
 
@@ -29,6 +29,10 @@
     flex-wrap: nowrap;
 justify-content: center;
 /* z-index: -1 */
+}
+
+.internship{
+    width: 250px;
 }
 
 .occupation{

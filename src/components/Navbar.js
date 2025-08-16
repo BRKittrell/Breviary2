@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { FaLinkedin, FaYoutube, FaGithubSquare } from 'react-icons/fa'
+import profilePic from "../images/LI_Pic.jpeg"
 
 const Navbar = () => {
   return (
     <>
       <div className="titleAndNavbar">
         <h1 className="heading">Brandon Kittrell</h1>
+        <img className="cardPhoto" src={profilePic}/>
       <div className="navbardiv">
         <a href="mailto:brandon.kittrell@outlook.com"><MdOutlineMailOutline className="icon">...</MdOutlineMailOutline></a>
         <Link to="/" className="navLink">
