@@ -4,6 +4,9 @@ import hello from "../images/hello.png"
 import Slideshow from "../components/Slider-About";
 import nauticalChart from "../images/nauticalChart.png"
 import fishingAK from "../images/fishingAK.jpeg"
+import familyGameDay from "../images/familyGameDay.jpeg"
+import finalFourRd1 from "../images/finalFourRd1.jpg"
+import Roo from "../images/Roo.jpeg"
 
 const About = () => {
 
@@ -207,13 +210,21 @@ const About = () => {
         <summary>Personal Life</summary>
 
         <p className="aboutParagraph">
-        I grew up in Deep East Texas and played baseball from the time I could swing a bat. 
+        I grew up in Deep East Texas and played baseball and fished since I could walk. When my daughter was old enough to play T-ball, my love for the game reignited, and I coached her team until she was 14.
         I met my wife, who is also retired Coast Guard, in Ireland while on a deployment.
         My daughter, an only child was born in 2006 at the Balboa Naval Hospital in San Diego.
-        My family comes first. We love golfing, fishing, cruising, in addition to dry camping and overlanding -- usually at the same time. 
+        My family comes first. We love golfing and cruising, in addition to dry camping and overlanding -- usually at the same time. 
         NCAA sports are a staple in our family. My wife is a Michigan State and Ohio State graduate, and my daughter is in the Alpha Omicron Pi sorority at the University of Alabama where she is majoring in marketing.
         We have two dogs: Roo, an Australian Shepherd, and Kenai, an Alaskan Klee Kai.
         </p>
+
+        <div id="personalLifePicsDiv">
+        <img className="personalPics" src={familyGameDay}/>
+        <img className="personalPics" src={fishingAK}/>
+        <img className="personalPics" src={finalFourRd1}/>
+        <img className="personalPics" src={Roo}/>
+        </div>
+
         <button
       onClick={(e) => {
         const details = e.currentTarget.closest("details");
