@@ -7,6 +7,14 @@ import fishingAK from "../images/fishingAK.jpeg"
 import familyGameDay from "../images/familyGameDay.jpeg"
 import finalFourRd1 from "../images/finalFourRd1.jpg"
 import Roo from "../images/Roo.jpeg"
+import jeep2 from "../images/jeep2.jpeg"
+import AOII from "../images/AOII.jpeg"
+import rooAndKenai from "../images/rooAndKenai.jpeg"
+import RickieFowler from "../images/RickieFowler.jpeg"
+import OIF from "../images/OIF.jpeg"
+import d9 from "../images/d9.JPG"
+import edisto from "../images/edisto.jpg"
+import acushnet from "../images/acushnet.jpg"
 
 const About = () => {
 
@@ -55,6 +63,7 @@ const About = () => {
           </p>
       {/* MSO & PSU */}
       <h1>2002-2004: Marine Safety Office Hampton Roads & Port Security Unit 309</h1>
+      <img className="personalPics" src={OIF}/>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
@@ -75,6 +84,7 @@ const About = () => {
           </p>
       {/* EDISTO  */}
       <h1>2004-2007: USCGC Edisto (WPB-1313) & Armory San Diego</h1>
+      <img className="personalPics" src={edisto}/>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
@@ -95,6 +105,7 @@ const About = () => {
           </p>
       {/* Acushnet  */}
       <h1>2008-2009: USCGC Acushnet (WMEC-167)</h1>
+      <img className="personalPics" src={acushnet}/>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
@@ -175,6 +186,7 @@ const About = () => {
           </p>
       {/* D9  */}
       <h1>2019-2022: Ninth District</h1>
+      <img className="personalPics" src={d9}/>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
@@ -219,10 +231,13 @@ const About = () => {
         </p>
 
         <div id="personalLifePicsDiv">
-        <img className="personalPics" src={familyGameDay}/>
-        <img className="personalPics" src={fishingAK}/>
+        <img className="personalPics" alt="PSU vs. MSU" src={familyGameDay}/>
         <img className="personalPics" src={finalFourRd1}/>
-        <img className="personalPics" src={Roo}/>
+        <img className="personalPics" src={jeep2}/>
+        <img className="personalPics" src={AOII}/>
+        <img className="personalPics" src={rooAndKenai}/>
+        <img className="personalPics" src={fishingAK}/>
+        <img className="personalPics" src={RickieFowler}/>
         </div>
 
         <button
