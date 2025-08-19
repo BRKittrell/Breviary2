@@ -30,17 +30,18 @@ const JustForLaughs = () => {
 
   return (
     <>
+    <h1>Oh, you got jokes?</h1>
+          <button onClick={handleClick}>Tell Me A Joke!</button>
       <div>
+        {/* <div>
+          <BsFillHandThumbsUpFill className="icon" onClick={goodJoke}/>
+          <BsFillHandThumbsDownFill className="icon" onClick={badJoke}/>
+        </div> */}
         <div className="jokeDiv">
         {joke}
         <div>
         {punchline}
         </div>
-        </div>
-        <div>
-          <BsFillHandThumbsUpFill className="icon" onClick={goodJoke}/>
-          <button onClick={handleClick}>Tell Me A Joke!</button>
-          <BsFillHandThumbsDownFill className="icon" onClick={badJoke}/>
         </div>
       </div>
       <div> {thumbsDown?

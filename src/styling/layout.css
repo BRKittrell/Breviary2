@@ -3,7 +3,7 @@ a {
 }
 
 a:hover{
-    color:  #BF0603;
+    color:  #ff0400;
     outline-color: solid black;
     font-weight:300;
 }
@@ -70,7 +70,7 @@ html{
     background-color:
      /* #001B2E */
      /* #2081C3 */
-     #2E4057
+     #1d66c6
 }
 
 .icon{
@@ -79,7 +79,7 @@ html{
     width: 3em;
 }
 .icon:hover{
-    color: #BF0603;
+    color: #ff0400;
 }
 
 #iconDiv{

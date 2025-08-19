@@ -18,9 +18,9 @@
 }
 
 .navbardiv {
-    border-radius: 10px;
-    border-bottom: groove 0.35rem rgb(212, 7, 7);
-    border-top: groove 0.35rem rgb(212, 7, 7);
+    /* border-radius: 10px; */
+    border-bottom: groove 0.35rem rgb(255, 0, 0);
+    border-top: groove 0.35rem rgb(255, 0, 0);
     padding: 0.5rem;
     display: flex; /* Use flexbox for alignment if needed */
     justify-content: space-between; /* Space between elements */
