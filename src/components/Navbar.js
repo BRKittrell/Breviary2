@@ -27,9 +27,9 @@ const Navbar = () => {
         <Link to="blogs" className="navLink">
           Blogs
         </Link>
-        <Link to="visitors" className="navLink">
+        {/* <Link to="visitors" className="navLink">
           Fun
-        </Link>
+        </Link> */}
       <a href="https://www.linkedin.com/in/brandon-kittrell/" target="_blank"><FaLinkedin className="icon">...</FaLinkedin></a>
 
            </div>

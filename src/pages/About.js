@@ -20,11 +20,23 @@ const About = () => {
 
   return (
     <div className="aboutDiv">
-      <img className="internship" src={hello}/>
+      <details>
+      <summary>What I'm Doing Now</summary>
         <p className="aboutParagraph">
-        <em><color></color>I am seeking an internship</em> for my capstone beginning in the Spring 2026 semester. 
-        Product management, supply chain operations or management, and business analytics are preferred, but I have a growth mindset and can adapt to any opportunity.
+          I am graduating from Penn State with my BSB (Management and Marketing option) after completing my internship at <a href="https://www.seboc.com/"> The Society of Evidence-Based Organizational Consulting</a> in the Spring 2026 semester. 
+          I am seeking permanent employment after graduation in leadership, marketing, operations, HR, or business analytics roles in any industry.
         </p>
+
+        <button
+      onClick={(e) => {
+        const details = e.currentTarget.closest("details");
+        if (details) details.removeAttribute("open");
+      }}
+      className="mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-xl shadow hover:bg-blue-700 transition"
+    >
+      Close
+    </button>
+      </details>
       <details>
       <summary>Professional Life: Beyond the Resume</summary>
         <img id="nauticalChart" src={nauticalChart}/>

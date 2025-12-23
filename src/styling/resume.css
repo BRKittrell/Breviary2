@@ -18,7 +18,13 @@
     text-align: left;
   }
 
+  .resumeLI{
+    list-style-type: disc;
+  }
+
   #professional_summary{
 text-align: left;
   }
+
+
  
