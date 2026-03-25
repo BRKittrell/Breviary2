@@ -15,18 +15,25 @@ const Navbar = () => {
         <Link to="/" className="navLink">
           Bio
         </Link>
-        <Link to="resume" className="navLink">
+        <a 
+    href="https://docs.google.com/document/d/1BnmXqic7F5rIDcIE2OaSK1Zt4wb38s8C/export?format=pdf" 
+    className="navLink" 
+    download="Resume.pdf"
+  >
+    Resume
+  </a>
+        {/* <Link to="resume" className="navLink">
           Resume
-        </Link>
+        </Link> */}
         {/* <Link to="skills" className="navLink">
           Skills Summary
         </Link> */}
         <Link to="DegreeAndCertificate" className="navLink">
           Education/Certificates
         </Link>
-        <Link to="blogs" className="navLink">
+        {/* <Link to="blogs" className="navLink">
           Blogs
-        </Link>
+        </Link> */}
         {/* <Link to="visitors" className="navLink">
           Fun
         </Link> */}

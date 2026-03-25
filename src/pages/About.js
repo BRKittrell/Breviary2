@@ -23,8 +23,8 @@ const About = () => {
       <details>
       <summary>What I'm Doing Now</summary>
         <p className="aboutParagraph">
-          I am graduating from Penn State with my BSB (Management and Marketing option) after completing my internship at <a href="https://www.seboc.com/"> The Society of Evidence-Based Organizational Consulting</a> in the Spring 2026 semester. 
-          I am seeking permanent employment after graduation in leadership, marketing, operations, HR, or business analytics roles in any industry.
+        I'm currently completing an internship at <a href="https://www.seboc.com/"> The Society of Evidence-Based Organizational Consulting</a>. 
+        I am graduating from Penn State with my BSB (Management and Marketing option) on May 9, 2026, and activley applying for roles in analytics, marketing, operations, and supply chain management.
         </p>
 
         <button
@@ -154,7 +154,7 @@ const About = () => {
           </div>
           <h2>Memories and Reflections</h2>
           <p className="aboutParagraph">
-          I learned to lead in Detroit and discovered what kind of Chief I wanted to be. Although I had led countless teams, none of the members were my direct reports. No longer on independent duty, I had subordinate Gunner's Mates to develop. They challenged me as a leader and pushed me to grow. I also discovered the power of emotional intelligence. Understanding my own and others' emotions was necessary for effective interpersonal relationships and leading more thoughtfully. One of my biggest lessons was learning to balance empathy with operational demands.
+          I truly learned to lead in Detroit and discovered what kind of Chief I wanted to be. Although I had led countless teams, none of the members were my direct reports. No longer on independent duty, I had subordinate personnel to develop. They challenged me as a leader and pushed me to grow. I also discovered the power of emotional intelligence. Understanding my own and others' emotions was necessary for effective interpersonal relationships and leading more thoughtfully. One of my biggest lessons was learning to balance empathy with operational demands.
           </p>
       {/* Port Clinton  */}
       <h1>2013-2015: Force Readiness Command Armory Detachment Port Clinton</h1>
@@ -174,7 +174,7 @@ const About = () => {
           </div>
           <h2>Memories and Reflections</h2>
           <p className="aboutParagraph">
-          I supervised an Armory detachment in Port Clinton, OH, a position with significant authority. My armory ensured that weapons and explosives policies were followed across every Coast Guard unit in the eight Great Lakes states. It also served as the ammunition supply point and intermediate maintenance facility for weapons, so logistics management was a key skill. With my supervisor based in Virginia, I had high autonomy, which was exciting but initially overwhelming. Although I was a knowledgeable and experienced Gunner's Mate capable of demonstrating initiative, every outcome rested on my judgment. At first, I sought mentorship from peers and senior Gunner's Mates, which helped me navigate challenges and build confidence. This experience taught me humility: no matter your level of seniority, seeking guidance is not only acceptable but essential. I was advanced to Senior Chief (E-8) in 2015 and departed early for a higher role, carrying this lesson into future leadership positions.
+          I supervised an armory in Port Clinton, OH, a position with significant authority. My armory ensured that weapons and explosives safety policies were followed across every Coast Guard unit in the eight Great Lakes states. It also served as the ammunition supply point and intermediate maintenance facility for weapons, so logistics management was a key skill. With my supervisor based in Virginia, I had high autonomy, which was exciting but initially overwhelming. Although I was knowledgeable, experienced, and capable of demonstrating initiative, every outcome rested on my judgment. At first, I sought mentorship from peers and senior Gunner's Mates, which helped me navigate challenges and build confidence. This experience taught me humility: no matter your level of seniority, seeking guidance is not only acceptable but essential. I was advanced to Senior Chief (E-8) in 2015 and departed early for a higher role, carrying this lesson into future leadership positions.
           </p>
       {/* FORCECOM  */}
       <h1>2015-2019: Force Readiness Command Weapons Systems Branch</h1>
@@ -194,7 +194,7 @@ const About = () => {
           </div>
           <h2>Memories and Reflections</h2>
           <p className="aboutParagraph">
-          I am very grateful for this position, which laid the foundation for my aspirations after the Coast Guard. While the title of Ammunition Manager may sound straightforward, my responsibilities were significant. I was the authority for Coast Guard ammunition worldwide, overseeing over 25 million rounds and pyrotechnics, and serving as the final decision-maker for allocations, expenditures, onloads, offloads, and dispositions. Although I now had Chiefs working under me, ultimate responsibility rested on my shoulders. Our work processes were hindered by outdated software, which allowed us to query data but could not analyze it. To improve this, I taught myself to link Excel to Access and use macros, reducing the timeline for an annual recurring project by over 80%. I discovered a passion for building tools and software solutions that make complex work more efficient, and I found it incredibly rewarding to create systems that helped my team succeed. Equally important, I loved collaborating with others. As one of only twelve Senior Chief Gunner's Mates in the Coast Guard, colleagues from junior Gunner's Mates to Senior Officers sought my advice. These experiences inspired me to pursue a career in software engineering, combining my love for building tools with a passion for collaboration.
+          I am very grateful for this position, which laid the foundation for my aspirations after the Coast Guard. While the title of Ammunition Manager may sound straightforward, my responsibilities were broad and required a depth of knowledge. I was the authority for Coast Guard ammunition worldwide, overseeing over 25 million rounds of ammunition and pyrotechnics valued at $17M, and serving as the final decision-maker for expenditure allocations (budgeting). Although I now had Chiefs working under me, ultimate responsibility rested on my shoulders. Our work processes were hindered by outdated software, which allowed us to query data but could not analyze it. To improve this, I taught myself to link Excel to Access and use macros, reducing the timeline for an annual recurring project by over 80%. I discovered a passion for building tools and software solutions that make complex work more efficient, and I found it incredibly rewarding to create systems that helped my team succeed. Equally important, I loved collaborating with others. As one of only twelve Senior Chief Gunner's Mates in the Coast Guard, colleagues from junior Gunner's Mates to Senior Officers sought my guidance. These experiences inspired me to pursue a career in software engineering, combining my love for building tools with a passion for collaboration.
           </p>
       {/* D9  */}
       <h1>2019-2022: Ninth District</h1>
@@ -215,7 +215,7 @@ const About = () => {
           </div>
           <h2>Memories and Reflections</h2>
           <p className="aboutParagraph">
-          My job in Cleveland, OH, was unique. I served as the Great Lakes units’ weapons and explosives policy and program manager while directing Chiefs and mission support at armories. In addition, the Chief of Staff selected me for the “Silver Badge”, a position that represents the command and serves as the conduit for communication between the most junior member and the Admiral. In many ways, it was like being a life coach; able to influence policies, negotiate with senior leaders, and ensure every voice was heard. I gave daily briefs to the command cadre and delivered monthly training sessions on trending issues, which I called Leadership Lunches. It was one of the most rewarding positions of my career. I was still a Gunner’s Mate, yet I was also genuinely available to those concerned about policy or who simply needed someone to listen. This role sharpened every leadership skill I had developed that continues to inspire my post-Coast Guard aspirations in product management, where collaboration and building solutions are at the heart of my work.
+          My job in Cleveland, OH, was unique. I served as the Great Lakes units’ weapons and explosives policy and program manager while directing Chiefs and mission support at armories. In addition, the Chief of Staff selected me for the “Silver Badge”, a position that represents the command and serves as the conduit for communication between the most junior member and the Admiral. In many ways, it was like being a life coach; able to influence policies, negotiate with senior leaders, and ensure every voice was heard. I gave daily briefs to the command cadre and delivered monthly training sessions on trending issues, which I called Leadership Lunches. It was one of the most rewarding positions of my career. I was still a Gunner’s Mate, yet I was also genuinely available to those concerned about policy or who simply needed someone to listen. This role sharpened every leadership skill I had developed that continues to inspire my post-Coast Guard aspirations, in which grit and determination are at the heart of my work.
           </p>
 
           <button
@@ -234,11 +234,11 @@ const About = () => {
         <summary>Personal Life</summary>
 
         <p className="aboutParagraph">
-        I grew up in Deep East Texas and played baseball from the time I could hold a bat until I joined the military. When my daughter was old enough to play T-ball, my love for the game reignited, and I coached her team until she was 14.
-        I met my wife, who is also retired Coast Guard, in Ireland while on a deployment.
+        I grew up in East Texas and played loved playing sports - from baseball to track-and-field and motorcross.
+        I met my wife, who is also retired from the Coast Guard, in 2003 in Ireland while on a deployment.
         My daughter, an only child, was born in 2006 at the Balboa Naval Hospital in San Diego.
-        My family comes first. We love golfing and cruising, in addition to dry camping and overlanding -- usually at the same time. 
-        NCAA sports are a staple in our family. My wife is a Michigan State and Ohio State graduate, and my daughter is in the Alpha Omicron Pi sorority at the University of Alabama where she is majoring in marketing.
+        My family comes first. We love the outdoors, fishing, golfing, and cruising, in addition to dry camping and overlanding - usually at the same time. 
+        NCAA sports are a staple in our family. My wife is a Michigan State and Ohio State graduate, and my daughter is a student-athlete at the University of Alabama and is in the Alpha Omicron Pi sorority.
         We have two dogs: Roo, an Australian Shepherd, and Kenai, an Alaskan Klee Kai.
         </p>
 
