@@ -37,6 +37,9 @@ const Navbar = () => {
         {/* <Link to="visitors" className="navLink">
           Fun
         </Link> */}
+        <Link to="ProjectPortfolio" className="navLink">
+        Portfolio
+        </Link>
       <a href="https://www.linkedin.com/in/brandon-kittrell/" target="_blank"><FaLinkedin className="icon">...</FaLinkedin></a>
 
            </div>

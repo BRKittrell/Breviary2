@@ -10,6 +10,7 @@ import Blogs from "./pages/Blogs";
 import Resume from "./pages/Resume";
 import Skills from "./pages/Skills";
 import Visitors from "./pages/Visitors";
+import ProjectPortfolio from "./pages/ProjectPortfolio";
 //Components
 import Layout from "./components/Layout";
 //Styling
@@ -39,6 +40,7 @@ function App() {
           <Route path="/resume" element={<Resume/>} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/visitors" element={<Visitors />} />
+          <Route path="/ProjectPortfolio" element={<ProjectPortfolio />} />
           <Route path="*" element={<PageNotFound />} />          
           </Route>
         </Routes>

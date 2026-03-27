@@ -47,10 +47,8 @@ const About = () => {
         While in the Coast Guard, I earned an <a target="_blank" href="https://www.uagrantham.edu/online-degrees/business-administration-management-associate-arts/">A.A. in Business Management</a> from the University of Arkansas (Grantham).
         Much of my 23-year career was in data analysis and business operations. I taught myself how to build tools in Microsoft Excel and Access to manipulate raw data and turn it into useful information.
         When I retired, I completed a full-stack software engineering program with <a target="_blank" href="https://www.galvanize.com/military/">Galvanize</a> to learn to build customized solutions.
-        I loved building something unique and discovered that my passion was in product management. My skills and experience paired well with Agile methodologies, and I was good at leading cross-functional teams and software projects from initiation to closure.
+        My skills and experience paired well with Agile methodologies, and I was good at leading cross-functional teams and projects from initiation to closure.
         I took the next obvious step, becoming a <a target="_blank" href="https://www.scrum.org/assessments/professional-scrum-master-i-certification">Certified Professional Scrum Master</a>. 
-        My next milestone is completing a <a target="_blank" href="https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-business-bachelor-of-science-degree">B.S. in Business</a>, specializing in Management and Marketing, and I will graduate from Penn State in May 2026.
-        I am motivated by continuous learning, innovation, and sharing knowledge.
         </p>
 
       {/* Station SPI */}
