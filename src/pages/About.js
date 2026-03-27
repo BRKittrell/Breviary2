@@ -48,7 +48,7 @@ const About = () => {
         Much of my 23-year career was in data analysis and business operations. I taught myself how to build tools in Microsoft Excel and Access to manipulate raw data and turn it into useful information.
         When I retired, I completed a full-stack software engineering program with <a target="_blank" href="https://www.galvanize.com/military/">Galvanize</a> to learn to build customized solutions.
         My skills and experience paired well with Agile methodologies, and I was good at leading cross-functional teams and projects from initiation to closure.
-        I took the next obvious step, becoming a <a target="_blank" href="https://www.scrum.org/assessments/professional-scrum-master-i-certification">Certified Professional Scrum Master</a>. 
+        I took the next obvious step, becoming a <a target="_blank" href="https://www.scrum.org/assessments/professional-scrum-master-i-certification">Certified Professional Scrum Master</a>.
         </p>
 
       {/* Station SPI */}

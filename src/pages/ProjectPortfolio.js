@@ -28,7 +28,7 @@ function ProjectPortfolio() {
     /* This wrapper centers your content and stops it from hitting the screen edges */
     <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 20px' }}>
       
-      <h1>Marketing Internship Tableau Analytics</h1>
+      <h1>Marketing Analytics Dashboard</h1>
       
       <div 
         className='tableauPlaceholder' 
