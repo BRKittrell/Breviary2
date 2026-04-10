@@ -52,7 +52,7 @@ const About = () => {
         </p>
 
       {/* Station SPI */}
-      <h1>1999-2001: Coast Guard Station South Padre Island</h1>
+      <h1>1999-2001: Station South Padre Island</h1>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
