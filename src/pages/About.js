@@ -23,8 +23,7 @@ const About = () => {
       <details>
       <summary>What I'm Doing Now</summary>
         <p className="aboutParagraph">
-        I'm currently completing an internship at <a href="https://www.seboc.com/"> The Society of Evidence-Based Organizational Consulting</a>. 
-        I am graduating from Penn State with my BSB (Management and Marketing option) on May 9, 2026, and activley applying for roles in analytics, marketing, operations, and supply chain management.
+        I am graduating from Penn State with my BSB (Management and Marketing option) on May 9, 2026, and activley applying for roles in marketing, analytics, operations, and supply chain management.
         </p>
 
         <button
