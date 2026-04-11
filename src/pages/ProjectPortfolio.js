@@ -23,8 +23,6 @@ function ProjectPortfolio() {
     marginBottom: '40px' 
   };
 
-  const hrStyle = { border: '0', borderTop: '1px solid #eee', margin: '40px 0' };
-
   const closeSection = (e) => {
     const details = e.currentTarget.closest("details");
     if (details) details.removeAttribute("open");
@@ -51,7 +49,6 @@ function ProjectPortfolio() {
         <button onClick={closeSection} className={btnClass}>Close Section</button>
       </details>
 
-      <hr style={hrStyle} />
 
       {/* SECTION 2: MARKETING ANALYTICS */}
       <details>
@@ -72,8 +69,6 @@ function ProjectPortfolio() {
         </div>
         <button onClick={closeSection} className={btnClass} style={{ marginTop: '60px' }}>Close Section</button>
       </details>
-
-      <hr style={hrStyle} />
 
       {/* SECTION 3: SUPPLY CHAIN */}
       <details>

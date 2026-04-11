@@ -15,13 +15,13 @@ const Navbar = () => {
         <Link to="/" className="navLink">
           Bio
         </Link>
-        <a 
+        {/* <a 
     href="https://docs.google.com/document/d/1BnmXqic7F5rIDcIE2OaSK1Zt4wb38s8C/export?format=pdf" 
     className="navLink" 
     download="Resume.pdf"
   >
     Resume
-  </a>
+  </a> */}
         {/* <Link to="resume" className="navLink">
           Resume
         </Link> */}
