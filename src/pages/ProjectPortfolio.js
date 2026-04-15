@@ -33,21 +33,22 @@ function ProjectPortfolio() {
   return (
     <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 20px', fontFamily: 'sans-serif' }}>
       
-      {/* SECTION 1: SOCIAL MEDIA */}
+      {/* SECTION: SUPPLY CHAIN */}
       <details>
         <summary style={{ cursor: 'pointer' }}>
-          <h1 style={{ display: 'inline', marginLeft: '10px' }}>Social Media Content</h1>
+          <h1 style={{ display: 'inline', marginLeft: '10px' }}>Supply Chain Management Project</h1>
         </summary>
         <div style={{ ...containerStyle, margin: '20px' }}>
           <iframe 
-            src="https://drive.google.com/file/d/14NVIb9v44j_P90ianiD6F2dF-PrV8zXe/preview" 
+            src="https://docs.google.com/spreadsheets/d/1c7GrPkmBhiuaCEIPJgTFtEA5H7aj3zmE/edit?usp=sharing&ouid=109943883740572144728&rtpof=true&sd=true" 
             width="100%" 
             height="700px" 
-            title="Social Media Portfolio"
+            title="Supply Chain Excel Project"
           ></iframe>
         </div>
         <button onClick={closeSection} className={btnClass}>Close Section</button>
       </details>
+
 
 
       {/* SECTION 2: MARKETING ANALYTICS */}
@@ -70,22 +71,22 @@ function ProjectPortfolio() {
         <button onClick={closeSection} className={btnClass} style={{ marginTop: '60px' }}>Close Section</button>
       </details>
 
-      {/* SECTION 3: SUPPLY CHAIN */}
+
+      {/* SECTION: SOCIAL MEDIA */}
       <details>
         <summary style={{ cursor: 'pointer' }}>
-          <h1 style={{ display: 'inline', marginLeft: '10px' }}>Supply Chain Management Project</h1>
+          <h1 style={{ display: 'inline', marginLeft: '10px' }}>Social Media Content</h1>
         </summary>
         <div style={{ ...containerStyle, margin: '20px' }}>
           <iframe 
-            src="https://docs.google.com/spreadsheets/d/1c7GrPkmBhiuaCEIPJgTFtEA5H7aj3zmE/edit?usp=sharing&ouid=109943883740572144728&rtpof=true&sd=true" 
+            src="https://drive.google.com/file/d/14NVIb9v44j_P90ianiD6F2dF-PrV8zXe/preview" 
             width="100%" 
             height="700px" 
-            title="Supply Chain Excel Project"
+            title="Social Media Portfolio"
           ></iframe>
         </div>
         <button onClick={closeSection} className={btnClass}>Close Section</button>
       </details>
-
     </div>
   );
 }
