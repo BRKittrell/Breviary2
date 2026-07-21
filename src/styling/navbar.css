@@ -27,8 +27,86 @@
     align-items: center; /* Center items vertically */
 }
 
+.heading {
+    font-family: 'Aboreto', cursive;
+    font-size: clamp(14px, 3vw, 28px);
+    margin: auto;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+  }
+  
+  .navLink {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: 0.5rem;
+    font-size: clamp(12px, 2vw, 18px);
+    position: relative;
+  }
+  
+  .navbardiv {
+    border-bottom: groove 0.35rem rgb(255, 0, 0);
+    border-top: groove 0.35rem rgb(255, 0, 0);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .navbardiv {
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.5rem 0.25rem;
+    }
+  
+    .navLink {
+      margin: 0.25rem;
+      padding: 0.25rem;
+      font-size: 11px;
+    }
+  }
+  /* ---------- Navbar full-width line fix ---------- */
 
+.navbardiv {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+/* ---------- Match navbar text to page heading style ---------- */
 
+.navbardiv .navLink,
+.navbardiv a,
+.navbardiv button {
+  font-family: 'Aboreto', cursive;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: clamp(14px, 1.6vw, 22px);
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  line-height: 1.2;
+}
 
+.navbardiv .navLink:hover,
+.navbardiv a:hover,
+.navbardiv button:hover {
+  color: gold;
+  cursor: pointer;
+}
 
+/* Removes the little button-looking border around Bio/Portfolio */
+.navbardiv .navLink:focus,
+.navbardiv a:focus,
+.navbardiv button:focus {
+  outline: none;
+  box-shadow: none;
+}
 

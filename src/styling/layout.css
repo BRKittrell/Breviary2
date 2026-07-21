@@ -124,3 +124,105 @@ select{
 textarea{
     resize: none;
 }
+
+/* ---------- Mobile / responsive cleanup ---------- */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  iframe {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    div {
+      max-width: 100%;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: left;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    h1,
+    h2 {
+      font-size: 20px;
+      line-height: 1.25;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  
+    .icon {
+      height: 2.25em;
+      width: 2.25em;
+    }
+  
+    #iconDiv {
+      position: static;
+      margin: 1rem auto;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      font-size: 2rem;
+    }
+  }
+  /* ---------- Degree / certificate iframe fix ---------- */
+
+iframe.professional {
+    display: block;
+    width: min(90vw, 900px);
+    height: 650px;
+    margin: 1rem auto 2rem auto;
+  }
+  
+  @media (max-width: 768px) {
+    iframe.professional {
+      width: 92vw;
+      height: 560px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    iframe.professional {
+      width: 94vw;
+      height: 520px;
+    }
+  }
+
+  html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}

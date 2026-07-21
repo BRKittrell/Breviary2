@@ -3,6 +3,8 @@ import React from "react";
 const DegreeAndCertificates = () =>{
 return(
     <>
+    <h1>Bachelor of Science in Business</h1>
+    <iframe className="professional"src="https://drive.google.com/file/d/162PjQWlFNqgtYLi9ujXfhPTiDemizoXo/preview" width="640" height="480" allow="autoplay"></iframe>
     <h1>Associate of Arts Business Management</h1>
     <iframe className="professional"src="https://drive.google.com/file/d/13ocdgCLAn_KxJp5CtiIXhC4GNUMAeBMX/preview" width="640" height="480" allow="autoplay"></iframe>
     <h1>Professional Scrum Master Certificate</h1>

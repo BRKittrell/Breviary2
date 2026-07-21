@@ -21,9 +21,10 @@ const About = () => {
   return (
     <div className="aboutDiv">
       <details>
-      <summary>What I'm Doing Now</summary>
+      <summary>About Me</summary>
         <p className="aboutParagraph">
-        I am graduating from Penn State with my BSB (Management and Marketing option) on May 9, 2026, and activley applying for roles in marketing, analytics, operations, and supply chain management.
+        I graduated from Penn State University on May 9, 2026, with a Bachelor of Science in Business. I am actively applying for roles in inventory control, materials management, MRO support, logistics operations, and supply chain planning. Before earning my degree, I served 23 years in the U.S. Coast Guard, where I built experience in controlled inventory accountability, stock-point operations, repair-part support, requisitions, receiving and issuing, physical-to-book reconciliation, forecasting, SOP development, inspections, audit readiness, and team leadership.
+        I am looking for a role where I can use that background to improve inventory accuracy, strengthen material availability, support maintenance and operations teams, and build repeatable processes that help an organization run more efficiently.
         </p>
 
         <button
@@ -38,18 +39,7 @@ const About = () => {
       </details>
       <details>
       <summary>Professional Life: Beyond the Resume</summary>
-        <img id="nauticalChart" src={nauticalChart}/>
         <article>
-      <h1>Sea Patrols and Software Goals: Charting a New Course in Tech</h1>
-        <p className="aboutParagraph">
-        I joined the U.S. Coast Guard in 1999, advanced to <a target="_blank" href="https://en.wikipedia.org/wiki/Senior_chief_petty_officer#:~:text=Senior%20chief%20petty%20officer%20is,formally%2C%20as%20%22Senior%22.">Senior Chief</a> (E-8), and retired from active duty in 2022 as a <a target="_blank" href="https://www.cool.osd.mil/uscg/moc/index.html?moc=cg_csel&tab=overview">Command Senior Enlisted Leader</a>.       
-        While in the Coast Guard, I earned an <a target="_blank" href="https://www.uagrantham.edu/online-degrees/business-administration-management-associate-arts/">A.A. in Business Management</a> from the University of Arkansas (Grantham).
-        Much of my 23-year career was in data analysis and business operations. I taught myself how to build tools in Microsoft Excel and Access to manipulate raw data and turn it into useful information.
-        When I retired, I completed a full-stack software engineering program with <a target="_blank" href="https://www.galvanize.com/military/">Galvanize</a> to learn to build customized solutions.
-        My skills and experience paired well with Agile methodologies, and I was good at leading cross-functional teams and projects from initiation to closure.
-        I took the next obvious step, becoming a <a target="_blank" href="https://www.scrum.org/assessments/professional-scrum-master-i-certification">Certified Professional Scrum Master</a>.
-        </p>
-
       {/* Station SPI */}
       <h1>1999-2001: Station South Padre Island</h1>
           <div className="skillscontainer">
@@ -194,7 +184,7 @@ const About = () => {
           I am very grateful for this position, which laid the foundation for my aspirations after the Coast Guard. While the title of Ammunition Manager may sound straightforward, my responsibilities were broad and required a depth of knowledge. I was the authority for Coast Guard ammunition worldwide, overseeing over 25 million rounds of ammunition and pyrotechnics valued at $17M, and serving as the final decision-maker for expenditure allocations (budgeting). Although I now had Chiefs working under me, ultimate responsibility rested on my shoulders. Our work processes were hindered by outdated software, which allowed us to query data but could not analyze it. To improve this, I taught myself to link Excel to Access and use macros, reducing the timeline for an annual recurring project by over 80%. I discovered a passion for building tools and software solutions that make complex work more efficient, and I found it incredibly rewarding to create systems that helped my team succeed. Equally important, I loved collaborating with others. As one of only twelve Senior Chief Gunner's Mates in the Coast Guard, colleagues from junior Gunner's Mates to Senior Officers sought my guidance. These experiences inspired me to pursue a career in software engineering, combining my love for building tools with a passion for collaboration.
           </p>
       {/* D9  */}
-      <h1>2019-2022: Ninth District</h1>
+      <h1>2019-2022: Ninth (Great Lakes) District</h1>
       <img className="personalPics" src={d9}/>
           <div className="skillscontainer">
             <div className="skillsdiv">

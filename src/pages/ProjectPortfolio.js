@@ -70,23 +70,6 @@ function ProjectPortfolio() {
         </div>
         <button onClick={closeSection} className={btnClass} style={{ marginTop: '60px' }}>Close Section</button>
       </details>
-
-
-      {/* SECTION: SOCIAL MEDIA */}
-      <details>
-        <summary style={{ cursor: 'pointer' }}>
-          <h1 style={{ display: 'inline', marginLeft: '10px' }}>Social Media Content</h1>
-        </summary>
-        <div style={{ ...containerStyle, margin: '20px' }}>
-          <iframe 
-            src="https://drive.google.com/file/d/14NVIb9v44j_P90ianiD6F2dF-PrV8zXe/preview" 
-            width="100%" 
-            height="700px" 
-            title="Social Media Portfolio"
-          ></iframe>
-        </div>
-        <button onClick={closeSection} className={btnClass}>Close Section</button>
-      </details>
     </div>
   );
 }

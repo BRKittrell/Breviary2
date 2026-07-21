@@ -14,3 +14,16 @@
 .skillsdiv{
     width: 25rem;
 }
+
+@media (max-width: 768px) {
+    .skillscontainer {
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .skillsdiv {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
