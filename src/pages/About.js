@@ -15,6 +15,7 @@ import OIF from "../images/OIF.jpeg"
 import d9 from "../images/d9.JPG"
 import edisto from "../images/edisto.jpg"
 import acushnet from "../images/acushnet.jpg"
+import Headshot from "../images/Headshot.png"
 
 const About = () => {
 
