@@ -110,3 +110,37 @@
   box-shadow: none;
 }
 
+/* ---------- Mobile navbar polish ---------- */
+
+@media (max-width: 768px) {
+    .navbardiv {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.75rem 1rem;
+      padding: 0.75rem 0.5rem;
+    }
+  
+    .navbardiv .navLink,
+    .navbardiv a,
+    .navbardiv button {
+      font-family: 'Aboreto', cursive;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0.25rem;
+      color: white;
+      background: transparent;
+      border: none;
+      text-decoration: none;
+    }
+  
+    .navbardiv img,
+    .navbardiv svg,
+    .navbardiv .icon {
+      width: 32px;
+      height: 32px;
+    }
+  }

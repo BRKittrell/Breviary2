@@ -29,7 +29,7 @@ const Navbar = () => {
           Skills Summary
         </Link> */}
         <Link to="DegreeAndCertificate" className="navLink">
-          Education/Certificates
+          Credentials
         </Link>
         {/* <Link to="blogs" className="navLink">
           Blogs
