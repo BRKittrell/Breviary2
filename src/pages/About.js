@@ -145,19 +145,19 @@ const About = () => {
           I truly learned to lead in Detroit and discovered what kind of Chief I wanted to be. Although I had led countless teams, none of the members were my direct reports. No longer on independent duty, I had subordinate personnel to develop. They challenged me as a leader and pushed me to grow. I also discovered the power of emotional intelligence. Understanding my own and others' emotions was necessary for effective interpersonal relationships and leading more thoughtfully. One of my biggest lessons was learning to balance empathy with operational demands.
           </p>
       {/* Port Clinton  */}
-      <h1>2013-2015: Force Readiness Command Armory Detachment Port Clinton</h1>
+      <h1>2013-2015: Armory Port Clinton</h1>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
-                <li>Supply Chain Manager</li>
-                <li>Budget Officer</li>
-                <li>Explosives Safety Officer</li>
+                <li>Inventory Control Manager</li>
+                <li>Materials Manager</li>
+                <li>Area Manager</li>
             </div>
             <div className="skillsdiv">
               <h2>Missions</h2>
+                <li>Maintenance & Repair Ops (MRO)</li>
                 <li>Training Program Management</li>
-                <li>Explosives Safety</li>
-                <li>Intermediate Weapons Maintenance</li>
+                <li>Stock-Point Ops</li>
             </div>
           </div>
           <h2>Memories and Reflections</h2>
@@ -165,24 +165,24 @@ const About = () => {
           I supervised an armory in Port Clinton, OH, a position with significant authority. My armory ensured that weapons and explosives safety policies were followed across every Coast Guard unit in the eight Great Lakes states. It also served as the ammunition supply point and intermediate maintenance facility for weapons, so logistics management was a key skill. With my supervisor based in Virginia, I had high autonomy, which was exciting but initially overwhelming. Although I was knowledgeable, experienced, and capable of demonstrating initiative, every outcome rested on my judgment. At first, I sought mentorship from peers and senior Gunner's Mates, which helped me navigate challenges and build confidence. This experience taught me humility: no matter your level of seniority, seeking guidance is not only acceptable but essential. I was advanced to Senior Chief (E-8) in 2015 and departed early for a higher role, carrying this lesson into future leadership positions.
           </p>
       {/* FORCECOM  */}
-      <h1>2015-2019: Force Readiness Command Weapons Systems Branch</h1>
+      <h1>2015-2019: FORCECOM Weapons Systems Branch</h1>
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
-                <li>Ammunition Program Manager</li>
-                <li>Ordnance Board of Experts Member</li>
-                <li>Explosives Safety Officer</li>
+                <li>Enterprise Inventory Analyst</li>
+                <li>Materials Manager/Planner</li>
+                <li>Policy Board of Experts Member</li>
             </div>
             <div className="skillsdiv">
               <h2>Missions</h2>
-                <li>Mission Support</li>
-                <li>Standardization</li>
-                <li>Compliance</li>
+                <li>Inventory Accountability/Governance</li>
+                <li>Forecasting & Resource Planning</li>
+                <li>Logistics & Stakeholder Coordination</li>
             </div>
           </div>
           <h2>Memories and Reflections</h2>
           <p className="aboutParagraph">
-          I am very grateful for this position, which laid the foundation for my aspirations after the Coast Guard. While the title of Ammunition Manager may sound straightforward, my responsibilities were broad and required a depth of knowledge. I was the authority for Coast Guard ammunition worldwide, overseeing over 25 million rounds of ammunition and pyrotechnics valued at $17M, and serving as the final decision-maker for expenditure allocations (budgeting). Although I now had Chiefs working under me, ultimate responsibility rested on my shoulders. Our work processes were hindered by outdated software, which allowed us to query data but could not analyze it. To improve this, I taught myself to link Excel to Access and use macros, reducing the timeline for an annual recurring project by over 80%. I discovered a passion for building tools and software solutions that make complex work more efficient, and I found it incredibly rewarding to create systems that helped my team succeed. Equally important, I loved collaborating with others. As one of only twelve Senior Chief Gunner's Mates in the Coast Guard, colleagues from junior Gunner's Mates to Senior Officers sought my guidance. These experiences inspired me to pursue a career in software engineering, combining my love for building tools with a passion for collaboration.
+          I am very grateful for this position, which laid the foundation for my aspirations after the Coast Guard. While the title of Ammunition Manager may sound straightforward, my responsibilities were broad and required a depth of knowledge. I was the authority for Coast Guard ammunition worldwide, overseeing over 25 million rounds of ammunition and pyrotechnics valued at $17M, and serving as the final decision-maker for expenditure allocations (budgeting). Although I now had Chiefs working under me, ultimate responsibility rested on my shoulders. Our work processes were hindered by outdated software, which allowed us to query data but could not analyze it. To improve this, I taught myself to link Excel to Access and use macros, reducing the timeline for an annual recurring project by over 80%. I discovered a passion for building tools and software solutions that make complex work more efficient, and I found it incredibly rewarding to create systems that helped my team succeed. Equally important, I loved collaborating with others. As one of only twelve Senior Chief Gunner's Mates in the Coast Guard, colleagues from junior Gunner's Mates to Senior Officers sought my guidance. These experiences inspired me to marry my experience in inventory control, materials management, logistics, program managment, and project management with technology.
           </p>
       {/* D9  */}
       <h1>2019-2022: Ninth (Great Lakes) District</h1>
@@ -190,15 +190,15 @@ const About = () => {
           <div className="skillscontainer">
             <div className="skillsdiv">
               <h2>Responsibilities</h2>
-                <li>Ammunition Program Manager</li>
-                <li>Ordnance Board of Experts Member</li>
-                <li>Explosives Safety Officer</li>
+                <li>Regional Program Manager</li>
+                <li>Senior Enlisted Leader</li>
+                <li>Policy Board of Experts Member</li>
             </div>
             <div className="skillsdiv">
               <h2>Missions</h2>
-                <li>Mission Support</li>
-                <li>Standardization</li>
-                <li>Compliance</li>
+                <li>Regional Operational Readiness</li>
+                <li>Compliance Oversight</li>
+                <li>Personnel Readiness</li>
             </div>
           </div>
           <h2>Memories and Reflections</h2>
